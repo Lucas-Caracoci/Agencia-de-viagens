@@ -1,0 +1,249 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+.limita{
+    max-width: 1024px;
+    margin:0 auto;
+    width: 100%;
+}
+body{
+    background-color: #80808029;
+    
+}
+
+.topo{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5d15d1;
+    height: 100%;
+    width: 100%;
+}
+.logo img{
+    width: 32px;
+}
+.form{
+    width: 100%;
+    background-image: url('imagens/bahia.jpg');
+    background-size: cover;
+    height: auto;
+    display: flex;
+    
+    
+}
+.form-area{
+    background-color: #ffffff;
+    margin: 50px auto;
+    width: 100%;
+    
+}
+.topo-form{
+    background-color: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+    
+}
+.topo-form img{
+    width: 20px;
+    rotate: 320deg;
+    margin-right: 5px;
+}
+.agrupa-form{
+    width: 100%;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.agrupa-form h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.agrupa-form label{
+    font-size: 16px;
+}
+.agrupa-form input, .agrupa-form select{
+    height: 32px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.campo-duplo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.campo-duplo div{
+    width: calc(50% - 10px);
+}
+.radio,.check{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.radio div,.check div{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 5px;
+}
+.radio input,.check input{
+    width: 15px;
+    cursor: pointer;
+}
+.radio label, .check label{
+    cursor: pointer;
+}
+button{
+    width: 160px;
+    height: 32px    ;
+    font-size: 16px;
+    border: none;
+    color:white;
+    background-color: #5d15d1;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    margin-top: 12px;
+}
+button:hover{
+    background-color: #00ce3e;
+    transform: scale(1.2);
+    transition: ease-in-out 0.2s;
+}
+.ofertas, .anuncios  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto;
+}
+.ofertas h2, .anuncios h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ofertas h3, .anuncios h3{
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.ofertas span{
+    font-weight: bold;
+}
+.limita-img {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+.rio, .anuncio-img{
+    width: calc(50% - 10px);
+    height: 100%;
+    position: relative;
+}
+.imgs4{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgs4 div{
+    width: calc(50% - 10px);
+    height:  calc(50% - 10px);;
+    position: relative;
+    margin: 0 6px;
+}
+.limita-img img, .anuncios img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.limita-img span{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    left: 0;
+    bottom: 0;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.anuncios-limita{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.descriçao{
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+.descriçao h3{
+    font-weight: bold;
+}
+.descriçao p{
+    font-size: small;
+    color: #808080 ;
+}
+footer{
+    background-color:#5d15d1;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+.rodape img {
+    width: 18px;
+}
+
+.contato h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.contato span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.contato div{
+    display: flex;
+    align-items: center;
+}

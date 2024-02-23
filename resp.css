@@ -1,0 +1,94 @@
+@media (max-width:1100px){
+    .limita{
+        width: 90%;
+    }
+}
+@media (max-width:768px){
+    button{
+        width: 100%;
+    }
+
+    .rio, .imgs4{
+        width: 100%;
+        
+    }
+    .limita-img img{
+        width: 100%;
+        
+    }
+    .rio{
+        height: 20vh;
+        margin: 10px 0;
+    }
+    .imgs4{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .imgs4 div{
+        width: 100%;
+        height: 20vh;
+        padding: 0;
+        margin: 10px 0;
+        
+
+    }
+    .limita-img{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+   }
+   
+}
+@media (max-width:540px){
+    .anuncios-limita{
+        flex-wrap: wrap;
+        gap: 20px;
+   }
+   .anuncio-img{
+        width: 100%;
+   }
+   .radio,.check{
+        flex-direction: column;
+   }
+   .radio div ,.check div{
+        padding: 5px;
+    
+   }
+   .campo-duplo div{
+        width: 100%;
+   }
+   .campo-duplo{
+        flex-direction: column;
+   }
+   .contato span{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .contato h2{
+        font-size: 16px;
+        
+        
+    }
+    .contato{
+        align-items: center;
+    }
+    .rodape img {
+        width: 16px;
+    }
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+    .logo{
+        font-size: 23px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width: 25px;
+    }
+}
